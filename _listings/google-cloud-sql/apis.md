@@ -27,7 +27,7 @@ apis:
   tags: Databases
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/databases/master/_listings/google-cloud-sql/projects-project-instances-instance-databases-database-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/databases/master/_listings/google-cloud-sql/projects-project-instances-instance-databases-database-patch.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/sql/docs/release-notes
