@@ -23,7 +23,7 @@ apis:
   tags: Databases
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-elasticpools-elasticpoolname-databases-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-recommendedelasticpools-recommendedelasticpoolname-databases-databasename-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/sql-database/
