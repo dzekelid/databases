@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Azure SQL Database
-  description: Provides create, read, update and delete functionality for Azure SQL
-    Database resources including servers, databases, elastic pools, recommendations,
-    operations, and usage metrics.
+  title: Azure SQL Database API Databases Create Or Update
+  description: Creates a new database or updates an existing database. Location is
+    a required property in the request body, and it must be the same as the location
+    of the SQL server.
   version: 1.0.0
 host: management.azure.com
 basePath: /
