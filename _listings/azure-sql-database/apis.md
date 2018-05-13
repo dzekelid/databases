@@ -24,15 +24,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-transparentdataencryption-current-operationresults-get.md
-- name: Azure SQL Database API Databases Create Or Update Threat Detection Policy
-  description: Creates or updates a database's threat detection policy.
+- name: Azure SQL Database API Databases Import
+  description: Imports a bacpac into a new database.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-sql-01-stop-worrying.png
   humanURL: https://azure.microsoft.com/en-us/services/sql-database/
   baseURL: http:://management.azure.com//
   tags: Databases
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-securityalertpolicies-default-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-import-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/sql-database/
