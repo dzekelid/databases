@@ -24,17 +24,39 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-transparentdataencryption-current-operationresults-get.md
-- name: Azure SQL Database API Databases Create Or Update Transparent Data Encryption
-    Configuration
-  description: Creates or updates a database's transparent data encryption configuration.
+- name: Azure SQL Database API Databases Get
+  description: Gets a database.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-sql-01-stop-worrying.png
   humanURL: https://azure.microsoft.com/en-us/services/sql-database/
   baseURL: http:://management.azure.com//
   tags: Databases
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-transparentdataencryption-current-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-get-postman.md
+- name: Azure SQL Database API Databases Get Transparent Data Encryption Configuration
+  description: Gets a database's transparent data encryption configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-sql-01-stop-worrying.png
+  humanURL: https://azure.microsoft.com/en-us/services/sql-database/
+  baseURL: http:://management.azure.com//
+  tags: Databases
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-transparentdataencryption-current-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-transparentdataencryption-current-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/sql-database/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/sql-database/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/sql-database/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/sql-database/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/sql-database/
 - type: x-pricing
