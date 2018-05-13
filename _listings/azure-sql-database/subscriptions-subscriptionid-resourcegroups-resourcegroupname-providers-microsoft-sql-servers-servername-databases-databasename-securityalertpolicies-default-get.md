@@ -1,10 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Azure SQL Database
-  description: Provides create, read, update and delete functionality for Azure SQL
-    Database resources including servers, databases, elastic pools, recommendations,
-    operations, and usage metrics.
+  title: Azure SQL Database API Databases Get Threat Detection Policy
+  description: Gets a database's threat detection policy.
   version: 1.0.0
 host: management.azure.com
 basePath: /
