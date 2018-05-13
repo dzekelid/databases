@@ -24,17 +24,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-transparentdataencryption-current-operationresults-get.md
-- name: Azure SQL Database API Databases List Restore Points
-  description: Returns a list of database restore points.
+- name: Azure SQL Database API Databases Get Threat Detection Policy
+  description: Gets a database's threat detection policy.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-sql-01-stop-worrying.png
   humanURL: https://azure.microsoft.com/en-us/services/sql-database/
   baseURL: http:://management.azure.com//
   tags: Databases
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-restorepoints-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-securityalertpolicies-default-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-restorepoints-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-securityalertpolicies-default-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/sql-database/
