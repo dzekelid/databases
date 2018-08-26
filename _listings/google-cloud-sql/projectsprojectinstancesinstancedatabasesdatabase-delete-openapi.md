@@ -93,6 +93,93 @@ paths:
       - Instance
       - Databases
       - Database
+    get:
+      summary: Get Projects Project Instances Instance Databases Database
+      description: Retrieves a resource containing information about a database inside
+        a Cloud SQL instance.
+      operationId: sql.databases.get
+      x-api-path-slug: projectsprojectinstancesinstancedatabasesdatabase-get
+      parameters:
+      - in: path
+        name: database
+        description: Name of the database in the instance
+      - in: path
+        name: instance
+        description: Database instance ID
+      - in: path
+        name: project
+        description: Project ID of the project that contains the instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Databases
+      - Database
+    patch:
+      summary: Patch Projects Project Instances Instance Databases Database
+      description: Updates a resource containing information about a database inside
+        a Cloud SQL instance. This method supports patch semantics.
+      operationId: sql.databases.patch
+      x-api-path-slug: projectsprojectinstancesinstancedatabasesdatabase-patch
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: database
+        description: Name of the database to be updated in the instance
+      - in: path
+        name: instance
+        description: Database instance ID
+      - in: path
+        name: project
+        description: Project ID of the project that contains the instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Databases
+      - Database
+    put:
+      summary: Put Projects Project Instances Instance Databases Database
+      description: Updates a resource containing information about a database inside
+        a Cloud SQL instance.
+      operationId: sql.databases.update
+      x-api-path-slug: projectsprojectinstancesinstancedatabasesdatabase-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: database
+        description: Name of the database to be updated in the instance
+      - in: path
+        name: instance
+        description: Database instance ID
+      - in: path
+        name: project
+        description: Project ID of the project that contains the instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Put
+      - Projects
+      - Project
+      - Instances
+      - Instance
+      - Databases
+      - Database
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

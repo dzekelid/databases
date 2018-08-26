@@ -16,168 +16,62 @@ produces:
 consumes:
 - application/json
 paths:
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/restorePoints
-  : get:
-      summary: Databases List Restore Points
-      description: Returns a list of database restore points.
-      operationId: Databases_ListRestorePoints
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenamerestorepoints-get
-      parameters:
-      - in: path
-        name: databaseName
-        description: The name of the database from which to retrieve available restore
-          points
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Databases Restore Points
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/securityAlertPolicies/default
-  : get:
-      summary: Databases Get Threat Detection Policy
-      description: Gets a database's threat detection policy.
-      operationId: Databases_GetThreatDetectionPolicy
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenamesecurityalertpoliciesdefault-get
-      parameters:
-      - in: path
-        name: databaseName
-        description: The name of the database for which database Threat Detection
-          policy is defined
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Databases Threat Detection Policy
-    put:
-      summary: Databases Create Or Update Threat Detection Policy
-      description: Creates or updates a database's threat detection policy.
-      operationId: Databases_CreateOrUpdateThreatDetectionPolicy
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenamesecurityalertpoliciesdefault-put
-      parameters:
-      - in: path
-        name: databaseName
-        description: The name of the database for which database Threat Detection
-          policy is defined
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: The database Threat Detection policy
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Databases Threat Detection Policy
-  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/import:
-    post:
-      summary: Databases Import
-      description: Imports a bacpac into a new database.
-      operationId: Databases_Import
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameimport-post
-      parameters:
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: The required parameters for importing a Bacpac into a database
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Databases Import
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/extensions/import
+  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}
   : put:
-      summary: Databases Create Import Operation
-      description: Creates an import operation that imports a bacpac into an existing
-        database. The existing database must be empty.
-      operationId: Databases_CreateImportOperation
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenameextensionsimport-put
+      summary: Databases Create Or Update
+      description: Creates a new database or updates an existing database. Location
+        is a required property in the request body, and it must be the same as the
+        location of the SQL server.
+      operationId: Databases_CreateOrUpdate
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasename-put
       parameters:
       - in: path
         name: databaseName
-        description: The name of the database to import into
+        description: The name of the database to be operated on (updated or created)
       - in: query
         name: No Name
       - in: body
         name: parameters
-        description: The required parameters for importing a Bacpac into a database
+        description: The required parameters for creating or updating a database
         schema:
           $ref: '#/definitions/holder'
       responses:
         200:
           description: OK
       tags:
-      - Databases Import Operation
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/export
-  : post:
-      summary: Databases Export
-      description: Exports a database to a bacpac.
-      operationId: Databases_Export
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenameexport-post
+      - Databases
+    delete:
+      summary: Databases Delete
+      description: Deletes a database.
+      operationId: Databases_Delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasename-delete
       parameters:
       - in: path
         name: databaseName
-        description: The name of the database to be exported
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: The required parameters for exporting a database
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Databases Export
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/replicationLinks/{linkId}
-  : delete:
-      summary: Databases Delete Replication Link
-      description: Deletes a database replication link. Cannot be done during failover.
-      operationId: Databases_DeleteReplicationLink
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenamereplicationlinkslinkid-delete
-      parameters:
-      - in: path
-        name: databaseName
-        description: The name of the database that has the replication link to be
-          dropped
-      - in: path
-        name: linkId
-        description: The ID of the replication link to be deleted
+        description: The name of the database to be deleted
       - in: query
         name: No Name
       responses:
         200:
           description: OK
       tags:
-      - Databases Replication Link
+      - Databases
     get:
-      summary: Databases Get Replication Link
-      description: Gets a database replication link.
-      operationId: Databases_GetReplicationLink
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenamereplicationlinkslinkid-get
+      summary: Databases Get
+      description: Gets a database.
+      operationId: Databases_Get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasename-get
       parameters:
       - in: path
         name: databaseName
-        description: The name of the database to get the link for
-      - in: path
-        name: linkId
-        description: The replication link ID to be retrieved
+        description: The name of the database to be retrieved
       - in: query
         name: No Name
       responses:
         200:
           description: OK
       tags:
-      - Databases Replication Link
+      - Databases
   ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/replicationLinks/{linkId}/failover
   : post:
       summary: Databases Failover Replication Link

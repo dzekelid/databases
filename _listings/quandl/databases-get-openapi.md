@@ -20,10 +20,10 @@ paths:
   /databases/{database_code}/data:
     get:
       summary: Get Databases Database Code Data
-      description: "You can download all the data in a premium database in a single
+      description: You can download all the data in a premium database in a single
         call, by appending /data to your database request. You can specify whether
-        you want the entire history, or merely the last day\u2019s worth of updates,
-        by setting the correct query parameters."
+        you want the entire history, or merely the last day???s worth of updates,
+        by setting the correct query parameters.
       operationId: databases.database_code.data.get
       x-api-path-slug: databasesdatabase-codedata-get
       parameters:
