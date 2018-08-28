@@ -1,0 +1,1154 @@
+{
+	"name": "Streadata.io API Gallery - Databases",
+	"description": "This is a repository of databases APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/databases.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://databases.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Firebase",
+			"x-api-slug": "firebase",
+			"description": "Firebase is a mobile platform that gives developers the tools and infrastructure to build better apps and grow successful businesses.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png",
+			"humanURL": "https://Firebase.google.com",
+			"baseURL": "https://{project_id].firebaseio.co}//",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/firebase/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Factual",
+			"x-api-slug": "factual",
+			"description": "Factual is pioneering how the world uses data to power mobile marketing, digital consumer products, mobile applications and real world analytics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg",
+			"humanURL": "http://www.factual.com/",
+			"baseURL": "https://api.v3.factual.com//",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/factual/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Salesforce",
+			"x-api-slug": "salesforce",
+			"description": "Build more meaningful and lasting relationships and connect with your customers across sales, customer service, marketing, communities, apps, analytics, and more using our Customer Success Platform. Try for Free.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/175-salesforce.jpg",
+			"humanURL": "http://developer.salesforce.com",
+			"baseURL": "https://na14.salesforce.com//services/data/",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/salesforce/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Heroku",
+			"x-api-slug": "heroku",
+			"description": "Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg",
+			"humanURL": "http://heroku.com",
+			"baseURL": "https://api.heroku.com//",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/heroku/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Octopart",
+			"x-api-slug": "octopart",
+			"description": "Octopart is a search engine for electronic and industrial parts. Find part data, check availability, and compare prices across hundreds of distributors and thousands of manufacturers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/447-octopart.jpg",
+			"humanURL": "http://octopart.com",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/octopart/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Unfuddle",
+			"x-api-slug": "unfuddle",
+			"description": "Join Hundreds of thousands of businesses and individuals who use our bug & issue tracking and Git & Subversion hosting to successfully manage their software projects.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/512-unfuddle.jpg",
+			"humanURL": "http://unfuddle.com",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/unfuddle/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Factolex",
+			"x-api-slug": "factolex",
+			"description": "Factolex is a community-powered fact lexicon going straight to the point.Users can build their own lexicon by selecting the facts most relevant to them, and, extend the knowledge by adding new terms and facts. The Factolex API follows a simple REST approach. Parameters for methods are set through URL parameters.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/factolex-logo.gif",
+			"humanURL": "http://factolex.com/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/factolex/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cambridge",
+			"x-api-slug": "cambridge",
+			"description": "Cambridge University Press advances learning, knowledge and research worldwide",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/724-cambridge.jpg",
+			"humanURL": "http://cambridge.org",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/cambridge/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dydra.com",
+			"x-api-slug": "dydra-com",
+			"description": "Cloud-hosted RDF & SPARQL database service by @datagraph. Request an invite to the beta program at http://t.co/Sat0oPE8fu",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/766-dydra-com.jpg",
+			"humanURL": "http://dydra.com",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/dydra-com/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Compose",
+			"x-api-slug": "compose",
+			"description": "Build Your Best with MongoDB and Elasticsearch. Compose is a fully-managed platform used by developers to deploy, host and scale databases. Compose deployments scale seamlessly as your data grows. Spend more time on your data model, less time capacity planning. This is how everyone should run databases. Backups, replication, complete monitoring. Three essentials of a production database deployment. Spend your time building apps, let us worry about production operations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/compose-ibm-logo-300.png",
+			"humanURL": "https://www.compose.io",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/compose/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM",
+			"x-api-slug": "ibm",
+			"description": "IBM is a global technology and innovation company headquartered in Armonk, NY. It is the largest technology and consulting employer in the world, with more than 400,000 employees serving clients in 170 countries. IBM offers a wide range of technology and consulting services; a broad portfolio of middleware for collaboration, predictive analytics, software development and systems management; and the worlds most advanced servers and supercomputers. Utilizing its business consulting, technology and R&amp;D expertise, IBM helps clients become smarter as the planet becomes more digitally interconnected.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1255-cloudant.jpg",
+			"humanURL": "https://ibm.com",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/ibm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SlashDB",
+			"x-api-slug": "slashdb",
+			"description": "SlashDB is an API service provider that focuses primarily on delivering APIs (Application programming interface) from your database. Once it is installed on any web server, it will connect your internal databases and construct a REST/HTTP web service, ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1361-slashdb.jpg",
+			"humanURL": "http://www.slashdb.com/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/slashdb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Harvard",
+			"x-api-slug": "harvard",
+			"description": "Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders in many disciplines who make a difference globally. Harvard University is made up of 11 principal academic units.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1705-harvard.jpg",
+			"humanURL": "http://library.harvard.edu",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/harvard/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Import.io",
+			"x-api-slug": "import-io",
+			"description": "Home Page - Import.io - Web Scraping, Data Extraction and Web Harvesting",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1728-import-io.jpg",
+			"humanURL": "https://www.import.io/",
+			"baseURL": "https://schedule.import.io//",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/import-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Hatebase",
+			"x-api-slug": "hatebase",
+			"description": "Worlds largest and most authoritative structured repository of hate speech",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1869-hatebase.jpg",
+			"humanURL": "http://www.hatebase.org",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/hatebase/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ragic",
+			"x-api-slug": "ragic",
+			"description": "Design powerful Web databases for your business with simple Excel-like interface. Business data management solution that just works.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2077-ragic.jpg",
+			"humanURL": "http://www.ragic.com/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/ragic/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Quandl",
+			"x-api-slug": "quandl",
+			"description": "Quandl delivers financial data to users in the format they want. Access thousands of databases via the Quandl API or in your tool of choice.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quandl.jpg",
+			"humanURL": "http://quandl.com",
+			"baseURL": "https://www.quandl.com//api/v3",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Neo4j",
+			"x-api-slug": "neo4j",
+			"description": "Meet Neo4j: The graph database platform powering todays mission-critical enterprise applications, including artificial intelligence, fraud detection and recommendations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18635-neo4j.jpg",
+			"humanURL": "http://neo4j.com/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/neo4j/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ArangoDB",
+			"x-api-slug": "arangodb",
+			"description": "ArangoDB is an easy to use mostly memory, high performance, open source NoSQL database with a unique combination of features like graph & geo algorithms.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18684-arangodb.jpg",
+			"humanURL": "https://www.arangodb.com/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/arangodb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The Apache Software Foundation",
+			"x-api-slug": "the-apache-software-foundation",
+			"description": "Home page of The Apache Software Foundation",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18741-apache-couchdb.jpg",
+			"humanURL": "http://couchdb.apache.org/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/the-apache-software-foundation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SecureDB",
+			"x-api-slug": "securedb",
+			"description": "SecureDB is the fastest way to encrypt and store the data in the cloud. SecureDB comes built-in with the following modules: 1) Encrypted User Profiles 2) Encrypted Custom Data 3) Encrypted Files. Traditionally, implementing encryption is a complicated, expensive and time consuming exercise. SecureDB makes implementing strong encryption simple, fast and inexpensive.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/securedb-logo.png",
+			"humanURL": "https://securedb.co/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/securedb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Airtable",
+			"x-api-slug": "airtable",
+			"description": "Airtable works like a spreadsheet but gives you the power of a database to organize anything. Sign up for free.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18960-airtable.jpg",
+			"humanURL": "https://airtable.com/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/airtable/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpsGen",
+			"x-api-slug": "opsgen",
+			"description": "Theres a better way to build connectivity for high-value enterprise, mobile, IoT, and startup applications. OpsGen can help you easily and rapidly create, manage, and scale your API. Visit our website and find your way!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19009-opsgen.jpg",
+			"humanURL": "http://opsgen.com",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/opsgen/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reindex",
+			"x-api-slug": "reindex",
+			"description": "Building apps and tools for GraphQL.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19027-reindex.jpg",
+			"humanURL": "https://www.reindex.io/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/reindex/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Visual Paradigm",
+			"x-api-slug": "visual-paradigm",
+			"description": "Visual Paradigm, a software design tool tailored for agile software projects. It supports UML, BPMN, ERD, DFD, SysML. It also supports use cases, wireframeing, code engineering, etc.",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "https://www.visual-paradigm.com/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/visual-paradigm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DBmaestro",
+			"x-api-slug": "dbmaestro",
+			"description": "We provide Database Enforced Change Management solution that enables you full control over database development processes and enhance database DevOps performance.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19924-dbmaestro.jpg",
+			"humanURL": "http://www.dbmaestro.com/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/dbmaestro/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Scaphold",
+			"x-api-slug": "scaphold",
+			"description": "A real-time GraphQL backend as a service. Build web, mobile, & IOT apps faster with React, Angular, Relay, and Apollo using our hosted data and integrations platform. Beats Firebase & Parse.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19925-scaphold.jpg",
+			"humanURL": "https://scaphold.io",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/scaphold/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Crate.io",
+			"x-api-slug": "crate-io",
+			"description": "An open source real-time SQL database with integrated search that is simple to scale. It is ideal for storing and analyzing IoT and machine data in real time.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19926-crate.jpg",
+			"humanURL": "https://crate.io/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/crate-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MarkLogic",
+			"x-api-slug": "marklogic",
+			"description": "MarkLogic provides enterprise solutions for your business by enabling operational big data applications with NoSQL databases and data integration.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20018-marklogic.jpg",
+			"humanURL": "http://www.marklogic.com/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/marklogic/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "webD",
+			"x-api-slug": "webd",
+			"description": "",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "http://webd.is/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/webd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Periscope Data",
+			"x-api-slug": "periscope-data",
+			"description": "Periscope Data brings all your data together in a single platform and delivers SQL, Python, and R in one solution. Easily warehouse, analyze, visualize and share data from across your business.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20059-periscope-data.jpg",
+			"humanURL": "https://www.periscopedata.com/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/periscope-data/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "hook.io",
+			"x-api-slug": "hook-io",
+			"description": "Twitter account for hook.io open-source microservice hosting platform.    Tweet here for Questions or Support.    File support issues @ https://t.co/jHGKd4iuop",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20079-hook-io.jpg",
+			"humanURL": "http://hook.io/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/hook-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apollo",
+			"x-api-slug": "apollo",
+			"description": "Apollo is an incrementally-adoptable data stack that manages the flow of data between clients and backends. Based on GraphQL, it gives you a principled, unified, and scalable API for developing modern apps on top of services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apollo-stack.png",
+			"humanURL": "https://www.apollographql.com/",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/apollo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "3dcart",
+			"x-api-slug": "3dcart",
+			"description": "The 3dcart shopping cart software is a complete web store solution for anyone looking to start an online business, add a shopping cart to their existing website, or to replace their existing shopping cart platform. 3dcart includes the latest, most innovative features, tools, support and technology needed to build, promote and grow your online business.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg",
+			"humanURL": "http://www.3dcart.com",
+			"baseURL": "https://apirest.3dcart.com//",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/3dcart/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"x-api-slug": "aws-storage-gateway-service",
+			"description": "The AWS Storage Gateway service seamlessly enables hybrid storage between on-premises storage environments andthe AWS Cloud. It combines a multi-protocol storage appliance with highly efficient network connectivity toAmazon cloud storageservices, delivering local performance with virtually unlimited scale. Customers use it in remote offices and datacenters for hybrid cloud workloads, backup and restore, archive, disaster recovery, and tiered storage.The Storage Gateway virtual appliance connects seamlessly to your local infrastructure as a file server, as a volume, or as a virtual tape library (VTL). This seamless connection makes it simple for organizations to augment existing on-premises storage investments with the high scalability, extreme durability and low cost of cloud storage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png",
+			"humanURL": "https://aws.amazon.com/storagegateway/",
+			"baseURL": ":///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-storage-gateway-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Snowball",
+			"x-api-slug": "aws-snowball",
+			"description": "Snowball is a petabyte-scale data transport solution that uses secure appliances totransfer large amounts of datainto and out of theAWS cloud. Using Snowball addresses common challenges with large-scale data transfers including high network costs, long transfer times, and security concerns. Transferring data with Snowball is simple, fast, secure, and can be as little as one-fifth the cost of high-speed Internet.With Snowball, you don&rsquo;t need to write any code or purchase any hardware to transfer your data. Simply create a job in the AWS Management Console and a Snowball appliance will be automatically shipped to you*. Once it arrives, attach the appliance to your local network, download and run the Snowball client to establish a connection, and then use the client to select the file directories that you want to transfer to the appliance. The client will then encrypt and transfer the files to the appliance at high speed. Once the transfer is complete and the appliance is ready to be returned, the E Ink shipping label will automatically update and you can track the job status viaAmazon Simple Notification Service (SNS), text messages, or directly in the Console.Snowball uses multiple layers of security designed to protect your data including tamper-resistant enclosures, 256-bit encryption, and an industry-standard Trusted Platform Module (TPM) designed to ensure both security and full chain-of-custody of your data. Once the data transfer job has been processed and verified, AWS performs a software erasure of the Snowball appliance.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png",
+			"humanURL": "https://aws.amazon.com/snowball/",
+			"baseURL": ":///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-snowball/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS RDS",
+			"x-api-slug": "aws-rds",
+			"description": "Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale arelational databasein the cloud. It provides cost-efficient and resizable capacity while managing time-consuming database administration tasks, freeing you up to focus on your applications and business. Amazon RDS provides you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle, andMicrosoft SQL Server.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png",
+			"humanURL": "https://aws.amazon.com/rds/",
+			"baseURL": ":///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-rds/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS DynamoDB",
+			"x-api-slug": "aws-dynamodb",
+			"description": "Amazon DynamoDB is a fast and flexible NoSQL database service for all applications that need consistent, single-digit millisecond latency at any scale. It is a fully managed cloud database and supports both document and key-value store models. Its flexible data model and reliable performance make it a great fit for mobile, web, gaming, ad tech, IoT, and many other applications. Start today by downloading the local version of DynamoDB, then read our Getting Started Guide.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonDynamoDB.png",
+			"humanURL": "https://aws.amazon.com/dynamodb/",
+			"baseURL": ":///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-dynamodb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Redshift",
+			"x-api-slug": "aws-redshift",
+			"description": "Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat makes it simple and cost-effective to analyze all your data using your existing business intelligence tools. Start small for $0.25 per hour with no commitments and scale to petabytes for $1,000 per terabyte per year, less than a tenth the cost of traditional solutions. Customers typically see 3x compression, reducing their costs to $333 per uncompressed terabyte per year.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png",
+			"humanURL": "https://aws.amazon.com/redshift/",
+			"baseURL": ":///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-redshift/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Database Migration Service",
+			"x-api-slug": "aws-database-migration-service",
+			"description": "AWS Database Migration Service helps you migrate databases to AWS easily and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. The AWS Database Migration Service can migrate your data to and from most widely used commercial and open-source databases. The service supports homogenous migrations such as Oracle to Oracle, as well as heterogeneous migrations between different database platforms, such as Oracle to Amazon Aurora or Microsoft SQL Server to MySQL. It also allows you to stream data to Amazon Redshift from any of the supported sources including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle, SAP ASE and SQL Server, enabling consolidation and easy analysis of data in the petabyte-scale data warehouse. AWS Database Migration Service can also be used for continuous data replication with high-availability.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AWSDatabaseMigrationService.png",
+			"humanURL": "https://aws.amazon.com/dms/",
+			"baseURL": ":///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-database-migration-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Server Migration Service",
+			"x-api-slug": "aws-server-migration-service",
+			"description": "AWS Server Migration Service (SMS) is an agentless service which makes it easier and faster for you to migrate thousands of on-premises workloads to AWS. AWS SMS allows you to automate, schedule, and track incremental replications of live server volumes, making it easier for you to coordinate large-scale server migrations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AMI.png",
+			"humanURL": "https://aws.amazon.com/server-migration-service/",
+			"baseURL": ":///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-server-migration-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Elastic MapReduce",
+			"x-api-slug": "aws-elastic-mapreduce",
+			"description": "Amazon EMR provides a managed Hadoop framework that makes it easy, fast, and cost-effective to process vast amounts of data across dynamically scalable Amazon EC2 instances. You can also run other popular distributed frameworks such as Apache Spark, HBase, Presto, and Flink in Amazon EMR, and interact with data in other AWS data stores such as Amazon S3 and Amazon DynamoDB.Amazon EMR securely and reliably handles a broad set of big data use cases, including log analysis, web indexing, data transformations (ETL), machine learning, financial analysis, scientific simulation, and bioinformatics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png",
+			"humanURL": "https://aws.amazon.com/emr/",
+			"baseURL": ":///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-elastic-mapreduce/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Kinesis",
+			"x-api-slug": "aws-kinesis",
+			"description": "Amazon Kinesis Firehose is the easiest way to load streaming data into AWS. It can capture, transform, and load streaming data into Amazon Kinesis Analytics, Amazon S3, Amazon Redshift, and Amazon Elasticsearch Service, enabling near real-time analytics with existing business intelligence tools and dashboards you are already using today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisFirehose.png",
+			"humanURL": "https://aws.amazon.com/kinesis/",
+			"baseURL": ":///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-kinesis/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Kinesis Analytics",
+			"x-api-slug": "aws-kinesis-analytics",
+			"description": "Amazon Kinesis Analytics is the easiest way to process streaming data in real time with standard SQL without having to learn new programming languages or processing frameworks. Amazon Kinesis Analytics enables you to create and run SQL queries on streaming data so that you can gain actionable insights and respond to your business and customer needs promptly.Amazon Kinesis Analytics takes care of everything required to run your queries continuously and scales automatically to match the volume and throughput rate of your incoming data. With Amazon Kinesis Analytics, you only pay for the resources your queries consume. There is no minimum fee or setup cost.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisAnalytics.png",
+			"humanURL": "https://aws.amazon.com/kinesis/analytics/",
+			"baseURL": ":///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-kinesis-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Biquery",
+			"x-api-slug": "google-biquery",
+			"description": "BigQuery is Googles fully managed, petabyte scale, low cost enterprise data warehouse for analytics. BigQuery is serverless. There is no infrastructure to manage and you dont need a database administrator, so you can focus on analyzing data to find meaningful insights using familiar SQL. BigQuery is a powerful Big Data analytics platform used by all types of organizations, from startups to Fortune 500 companies.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/BigQuery_500px.png",
+			"humanURL": "https://cloud.google.com/bigquery/",
+			"baseURL": "://www.googleapis.com//bigquery/v2",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-biquery/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Dataproc",
+			"x-api-slug": "google-cloud-dataproc",
+			"description": "Use Google Cloud Dataproc, an Apache Hadoop, Apache Spark, Apache Pig, and Apache Hive service, to easily process big datasets at low cost. Control your costs by quickly creating managed clusters of any size and turning them off when youre done. Cloud Dataproc integrates across Google Cloud Platform products, giving you a powerful and complete data processing platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dataproc.png",
+			"humanURL": "https://cloud.google.com/dataproc/",
+			"baseURL": "://dataproc.googleapis.com//",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-dataproc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Datastore",
+			"x-api-slug": "google-cloud-datastore",
+			"description": "Cloud Datastore is a highly-scalable NoSQL database for your applications. Cloud Datastore automatically handles sharding and replication, providing you with a highly available and durable database that scales automatically to handle your applications load. Cloud Datastore provides a myriad of capabilities such as ACID transactions, SQL-like queries, indexes and much more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nosql-tree.png",
+			"humanURL": "https://cloud.google.com/datastore/",
+			"baseURL": "://datastore.googleapis.com//",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-datastore/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Fusion Tables",
+			"x-api-slug": "google-fusion-tables",
+			"description": "Fusion Tables is an experimental data visualization web application to gather, visualize, and share data tables.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fusion-tables.jpg",
+			"humanURL": "https://developers.google.com/fusiontables/",
+			"baseURL": "://www.googleapis.com//fusiontables/v2",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-fusion-tables/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Spanner",
+			"x-api-slug": "google-cloud-spanner",
+			"description": "Cloud Spanner is the first and only relational database service that is both strongly consistent and horizontally scalable. With Cloud Spanner you enjoy all the traditional benefits of a relational database: ACID transactions, relational schemas (and schema changes without downtime), SQL queries, high performance, and high availability. But unlike any other relational database service, Cloud Spanner scales horizontally, to hundreds or thousands of servers, so it can handle the highest of transactional workloads. With automatic scaling, synchronous data replication, and node redundancy, Cloud Spanner delivers up to 99.999% (five 9s) of availability for your mission critical applications. In fact, Google&rsquo;s internal Spanner service has been handling millions of queries per second from many Google services for years.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png",
+			"humanURL": "https://cloud.google.com/spanner/",
+			"baseURL": "://spanner.googleapis.com//",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-spanner/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud SQL",
+			"x-api-slug": "google-cloud-sql",
+			"description": "Cloud SQL is a fully-managed database service that makes it easy to set up, maintain, manage, and administer your relational PostgreSQL BETA and MySQL databases in the cloud. Cloud SQL offers high performance, scalability, and convenience. Hosted on Google Cloud Platform, Cloud SQL provides a database infrastructure for applications running anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-sql-lead-2x.png",
+			"humanURL": "https://cloud.google.com/sql/",
+			"baseURL": "://www.googleapis.com//sql/v1beta4",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-sql/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Data Lake Store",
+			"x-api-slug": "azure-data-lake-store",
+			"description": "The Data Lake store provides a single repository where you can capture data of any size type and speed simply without forcing changes to your application as the data scales. In the store, data can be shared for collaboration with enterprise-grade security. It is also designed for high-performance processing and analytics from HDFS applications (ie. Azure HDInsight, Data Lake analytics service, Hortonworks, Cloudera, MapR) and tools, including support for low latency workloads. For example, data can be ingested in real-time from sensors and devices for IoT solutions, or from online shopping websites into the store without the restriction of fixed limits on account or file size unlike current offerings in the market.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/data-lake-store/",
+			"baseURL": ":////",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-data-lake-store/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure DocumentDB",
+			"x-api-slug": "azure-documentdb",
+			"description": "Azure DocumentDB is a fully-managed NoSQL document database service that offers querying and transaction-processing over schema-free data, predictable and reliable performance, and rapid development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/documentdb/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-documentdb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure SQL Database",
+			"x-api-slug": "azure-sql-database",
+			"description": "Make building and maintaining applications easier and more productive. With built-in intelligence that learns app patterns and adapts to maximize performance, reliability, and data protection, SQL Database is a cloud database built for developers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-sql-01-stop-worrying.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/sql-database/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "quasardb",
+			"x-api-slug": "quasardb",
+			"description": "quasardb is a distributed time series database with support for server-side aggregations. It scales horizontally and vertically for virtually unlimited capabilities, making it a popular choice for low-latency and Big Data applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28159-www-quasardb-net.jpg",
+			"humanURL": "http://www.quasardb.net",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quasardb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Snowflake Software",
+			"x-api-slug": "snowflake-software",
+			"description": "Making Aviation Data Accessible and Easy to Use. The Laminar Data Platform manages flight, weather and aeronautical data to unlock operational value.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28183-snowflakesoftware-com.jpg",
+			"humanURL": "https://snowflakesoftware.com",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/snowflake-software/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Datical",
+			"x-api-slug": "datical",
+			"description": "The database release velocity gap is slowing application release. Get started today & release applications faster with Daticals database release automation tools!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28202-www-datical-com.jpg",
+			"humanURL": "https://www.datical.com",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/datical/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM Financial Crimes Insight for Insurance",
+			"x-api-slug": "ibm-financial-crimes-insight-for-insurance",
+			"description": "IBM&reg; Financial Crimes Insight&reg; for Insurance V3.0, formerly known as IBM Counter Fraud Management for Insurance, is now being offered as a cloud service offering. It helps organizations analyze data to determine the fraud risk of claims, medical providers, and other business entities, manage the full investigation lifecycle, and report on outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png",
+			"humanURL": "https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN",
+			"baseURL": "https://fcihost.ibm.com:9443//",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/ibm-financial-crimes-insight-for-insurance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Databases",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Databases",
+	"include": [
+		{
+			"name": "Firebase",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/firebase/apis.yaml"
+		},
+		{
+			"name": "Factual",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/factual/apis.yaml"
+		},
+		{
+			"name": "Salesforce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/salesforce/apis.yaml"
+		},
+		{
+			"name": "Heroku",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/heroku/apis.yaml"
+		},
+		{
+			"name": "Octopart",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/octopart/apis.yaml"
+		},
+		{
+			"name": "Unfuddle",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/unfuddle/apis.yaml"
+		},
+		{
+			"name": "Factolex",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/factolex/apis.yaml"
+		},
+		{
+			"name": "Cambridge",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/cambridge/apis.yaml"
+		},
+		{
+			"name": "Dydra.com",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/dydra-com/apis.yaml"
+		},
+		{
+			"name": "Compose",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/compose/apis.yaml"
+		},
+		{
+			"name": "IBM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/ibm/apis.yaml"
+		},
+		{
+			"name": "SlashDB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/slashdb/apis.yaml"
+		},
+		{
+			"name": "Harvard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/harvard/apis.yaml"
+		},
+		{
+			"name": "Import.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/import-io/apis.yaml"
+		},
+		{
+			"name": "Hatebase",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/hatebase/apis.yaml"
+		},
+		{
+			"name": "Ragic",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/ragic/apis.yaml"
+		},
+		{
+			"name": "Quandl",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/apis.yaml"
+		},
+		{
+			"name": "Neo4j",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/neo4j/apis.yaml"
+		},
+		{
+			"name": "ArangoDB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/arangodb/apis.yaml"
+		},
+		{
+			"name": "The Apache Software Foundation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/the-apache-software-foundation/apis.yaml"
+		},
+		{
+			"name": "SecureDB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/securedb/apis.yaml"
+		},
+		{
+			"name": "Airtable",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/airtable/apis.yaml"
+		},
+		{
+			"name": "OpsGen",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/opsgen/apis.yaml"
+		},
+		{
+			"name": "Reindex",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/reindex/apis.yaml"
+		},
+		{
+			"name": "Visual Paradigm",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/visual-paradigm/apis.yaml"
+		},
+		{
+			"name": "DBmaestro",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/dbmaestro/apis.yaml"
+		},
+		{
+			"name": "Scaphold",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/scaphold/apis.yaml"
+		},
+		{
+			"name": "Crate.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/crate-io/apis.yaml"
+		},
+		{
+			"name": "MarkLogic",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/marklogic/apis.yaml"
+		},
+		{
+			"name": "webD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/webd/apis.yaml"
+		},
+		{
+			"name": "Periscope Data",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/periscope-data/apis.yaml"
+		},
+		{
+			"name": "hook.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/hook-io/apis.yaml"
+		},
+		{
+			"name": "Apollo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/apollo/apis.yaml"
+		},
+		{
+			"name": "3dcart",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/3dcart/apis.yaml"
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-storage-gateway-service/apis.yaml"
+		},
+		{
+			"name": "AWS Snowball",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-snowball/apis.yaml"
+		},
+		{
+			"name": "AWS RDS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-rds/apis.yaml"
+		},
+		{
+			"name": "AWS DynamoDB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-dynamodb/apis.yaml"
+		},
+		{
+			"name": "AWS Redshift",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-redshift/apis.yaml"
+		},
+		{
+			"name": "AWS Database Migration Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-database-migration-service/apis.yaml"
+		},
+		{
+			"name": "AWS Server Migration Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-server-migration-service/apis.yaml"
+		},
+		{
+			"name": "AWS Elastic MapReduce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-elastic-mapreduce/apis.yaml"
+		},
+		{
+			"name": "AWS Kinesis",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-kinesis/apis.yaml"
+		},
+		{
+			"name": "AWS Kinesis Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/aws-kinesis-analytics/apis.yaml"
+		},
+		{
+			"name": "Google Biquery",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-biquery/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Dataproc",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-dataproc/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Datastore",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-datastore/apis.yaml"
+		},
+		{
+			"name": "Google Fusion Tables",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-fusion-tables/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Spanner",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-spanner/apis.yaml"
+		},
+		{
+			"name": "Google Cloud SQL",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-sql/apis.yaml"
+		},
+		{
+			"name": "Azure Data Lake Store",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-data-lake-store/apis.yaml"
+		},
+		{
+			"name": "Azure DocumentDB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-documentdb/apis.yaml"
+		},
+		{
+			"name": "Azure SQL Database",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/azure-sql-database/apis.yaml"
+		},
+		{
+			"name": "quasardb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quasardb/apis.yaml"
+		},
+		{
+			"name": "Snowflake Software",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/snowflake-software/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Datical",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/datical/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "IBM Financial Crimes Insight for Insurance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/ibm-financial-crimes-insight-for-insurance/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

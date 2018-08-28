@@ -16,8 +16,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Databases
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-spanner/apis.md
 specificationVersion: "0.14"
 apis:
@@ -47,6 +47,25 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-spanner/v1parentdatabases-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-spanner/v1parentdatabases-get-openapi.md
+- name: Cloud Spanner - Create Database
+  x-api-slug: v1parentdatabases-post
+  description: |-
+    Creates a new Cloud Spanner database and starts to prepare it for serving.
+    The returned long-running operation will
+    have a name of the format `<database_name>/operations/<operation_id>` and
+    can be used to track preparation of the database. The
+    metadata field type is
+    CreateDatabaseMetadata. The
+    response field type is
+    Database, if successful.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png
+  humanURL: https://cloud.google.com/spanner/
+  baseURL: ://spanner.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-spanner/v1parentdatabases-post-openapi.md
 - name: Cloud Spanner - Delete Database
   x-api-slug: v1database-delete
   description: Drops (aka deletes) a Cloud Spanner database.
@@ -73,6 +92,70 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-spanner/v1parentdatabases-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-spanner/v1parentdatabases-get-openapi.md
+- name: Cloud Spanner - Create Database
+  x-api-slug: v1parentdatabases-post
+  description: |-
+    Creates a new Cloud Spanner database and starts to prepare it for serving.
+    The returned long-running operation will
+    have a name of the format `<database_name>/operations/<operation_id>` and
+    can be used to track preparation of the database. The
+    metadata field type is
+    CreateDatabaseMetadata. The
+    response field type is
+    Database, if successful.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png
+  humanURL: https://cloud.google.com/spanner/
+  baseURL: ://spanner.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-spanner/v1parentdatabases-post-openapi.md
+- name: Cloud Spanner - Create Database
+  x-api-slug: v1parentdatabases-post
+  description: |-
+    Creates a new Cloud Spanner database and starts to prepare it for serving.
+    The returned long-running operation will
+    have a name of the format `<database_name>/operations/<operation_id>` and
+    can be used to track preparation of the database. The
+    metadata field type is
+    CreateDatabaseMetadata. The
+    response field type is
+    Database, if successful.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png
+  humanURL: https://cloud.google.com/spanner/
+  baseURL: ://spanner.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-spanner/v1parentdatabases-post-openapi.md
+- name: Cloud Spanner - Get Databases
+  x-api-slug: v1parentdatabases-get
+  description: Lists Cloud Spanner databases.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png
+  humanURL: https://cloud.google.com/spanner/
+  baseURL: ://spanner.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-spanner/v1parentdatabases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-spanner/v1parentdatabases-get-openapi.md
+- name: Cloud Spanner - Delete Database
+  x-api-slug: v1database-delete
+  description: Drops (aka deletes) a Cloud Spanner database.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png
+  humanURL: https://cloud.google.com/spanner/
+  baseURL: ://spanner.googleapis.com//
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-spanner/v1database-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/google-cloud-spanner/v1database-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.cloud.source.repositories.api.gallery.streamdata.io

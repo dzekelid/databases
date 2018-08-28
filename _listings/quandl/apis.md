@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quan
 x-kinRank: "8"
 x-alexaRank: "53781"
 tags: Databases
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/apis.md
 specificationVersion: "0.14"
 apis:
@@ -297,6 +297,115 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/databasesdatabase-code-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/databasesdatabase-code-get-openapi.md
+- name: Quandl - Get Databases Database Code
+  x-api-slug: databasesdatabase-code-get
+  description: This call returns descriptive metadata for the specified database.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quandl.jpg
+  humanURL: http://quandl.com
+  baseURL: https://www.quandl.com//api/v3
+  tags: Finance, Data, Finance, Target, Imports, Stack Network, internet, Technology,
+    SaaS, Enterprise, Market Data, Sign In With Github, Sign In With Google, Sign
+    In With LinkedIn, Have API Key, Visualizations, General Data, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/databasesdatabase-code-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/databasesdatabase-code-get-openapi.md
+- name: Quandl - Get Databases Database Code Codes
+  x-api-slug: databasesdatabase-codecodes-get
+  description: You can download a list of all dataset codes in a database in a single
+    call, by appending /codes to your database request. The call will return a ZIP
+    file containing a CSV.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quandl.jpg
+  humanURL: http://quandl.com
+  baseURL: https://www.quandl.com//api/v3
+  tags: Finance, Data, Finance, Target, Imports, Stack Network, internet, Technology,
+    SaaS, Enterprise, Market Data, Sign In With Github, Sign In With Google, Sign
+    In With LinkedIn, Have API Key, Visualizations, General Data, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/databasesdatabase-codecodes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/databasesdatabase-codecodes-get-openapi.md
+- name: Quandl - Get Databases Database Code Data
+  x-api-slug: databasesdatabase-codedata-get
+  description: You can download all the data in a premium database in a single call,
+    by appending /data to your database request. You can specify whether you want
+    the entire history, or merely the last day???s worth of updates, by setting the
+    correct query parameters.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quandl.jpg
+  humanURL: http://quandl.com
+  baseURL: https://www.quandl.com//api/v3
+  tags: Finance, Data, Finance, Target, Imports, Stack Network, internet, Technology,
+    SaaS, Enterprise, Market Data, Sign In With Github, Sign In With Google, Sign
+    In With LinkedIn, Have API Key, Visualizations, General Data, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/databasesdatabase-codedata-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/databasesdatabase-codedata-get-openapi.md
+- name: Quandl - Get Datasets Database Code Dataset Code
+  x-api-slug: datasetsdatabase-codedataset-code-get
+  description: You can download both data and metadata in a single call, using the
+    following API request. (You can replace .json with .csv or .xml in this request.  If
+    you use .csv, only data will be returned.). In this call, you can customize the
+    dataset object being returned, exactly as in the /data request above.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quandl.jpg
+  humanURL: http://quandl.com
+  baseURL: https://www.quandl.com//api/v3
+  tags: Finance, Data, Finance, Target, Imports, Stack Network, internet, Technology,
+    SaaS, Enterprise, Market Data, Sign In With Github, Sign In With Google, Sign
+    In With LinkedIn, Have API Key, Visualizations, General Data, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/datasetsdatabase-codedataset-code-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/datasetsdatabase-codedataset-code-get-openapi.md
+- name: Quandl - Get Datasets Database Code Dataset Code Data
+  x-api-slug: datasetsdatabase-codedataset-codedata-get
+  description: 'To download the data in a dataset, simply append /data to the Quandl
+    code in your API request. (You can replace .csv with .json or .xml in this request).
+    If you request CSV, only the data you requested will be returned.  If you request
+    JSON or XML, both data and input parameters will be returned. You can customize
+    the dataset object being returned by adding various optional parameters to your
+    query. Available parameters are tabulated below: If a datapoint for time t is
+    denoted as y[t] and the transformed data as y???[t], the available transformations
+    are defined as below: y[0] in the above table refers to the starting date for
+    the API call, i.e., the date specified by start_date= or rows=, NOT the starting
+    date of the underlying dataset.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quandl.jpg
+  humanURL: http://quandl.com
+  baseURL: https://www.quandl.com//api/v3
+  tags: Finance, Data, Finance, Target, Imports, Stack Network, internet, Technology,
+    SaaS, Enterprise, Market Data, Sign In With Github, Sign In With Google, Sign
+    In With LinkedIn, Have API Key, Visualizations, General Data, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/datasetsdatabase-codedataset-codedata-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/datasetsdatabase-codedataset-codedata-get-openapi.md
+- name: Quandl - Get Datasets Database Code Dataset Code Metadata
+  x-api-slug: datasetsdatabase-codedataset-codemetadata-get
+  description: 'To download the metadata associated with any dataset object, append
+    /metadata to your API request. (You can replace .csv with .json or .xml in this
+    request). The following metadata fields are available in the response:'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quandl.jpg
+  humanURL: http://quandl.com
+  baseURL: https://www.quandl.com//api/v3
+  tags: Finance, Data, Finance, Target, Imports, Stack Network, internet, Technology,
+    SaaS, Enterprise, Market Data, Sign In With Github, Sign In With Google, Sign
+    In With LinkedIn, Have API Key, Visualizations, General Data, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/datasetsdatabase-codedataset-codemetadata-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/databases/master/_listings/quandl/datasetsdatabase-codedataset-codemetadata-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://qualpay.api.gallery.streamdata.io
